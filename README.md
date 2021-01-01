@@ -19,5 +19,5 @@ Optionaly (with the `-d` flag), it will prompt you to delete one of the duplicat
 &nbsp;
 
 ## Examples
-`./dupehunter.py -p ~/Dropbox`
-`./dupehunter.py -p ~/Pictures -s scanlist.txt -d yes`
+`./dupehunter.py -p ~/Dropbox`  
+`./dupehunter.py -p ~/Pictures -s scanlist.txt -d yes`  
