@@ -137,6 +137,7 @@ def delete_list():
 
         for f in dupe_files_array:
             files_to_delete = []
+            files_to_delete.append("Skip!")
 
             if f[1] in seen_hashes:
                 pass
@@ -155,11 +156,14 @@ def delete_list():
                     "Which file would you like to delete?",
                     choices=files_to_delete).ask()  # returns value of selection
 
-                print('Deleting:', selected_file)
-                try:
-                    os.remove(selected_file)
-                except OSError:
-                    print('Unable to delete', selected_file)
+                if selected_file == "Skip!":
+                    print('Skipping..')
+                else:
+                    print('Deleting:', selected_file)
+                    try:
+                        os.remove(selected_file)
+                    except OSError:
+                        print('Unable to delete', selected_file)
 
 def main():
     """Main"""
