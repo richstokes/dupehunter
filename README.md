@@ -4,7 +4,7 @@ Finds duplicate files.
 
 For speed, the program first finds files with matching sizes. It then runs an MD5 hash against this shortlist to find duplicate files.  
 
-Optionaly (with the `-d` flag), it will prompt you to delete one of the duplicates. 
+Optionally (with the `-d` flag), it will prompt you to delete one of the duplicates. 
 
 &nbsp;
 
