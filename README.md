@@ -14,7 +14,7 @@ Optionally (with the `-d` flag), it will prompt you to delete one of the duplica
 
 ## Use
 `-p /path` - Specify a filesystem path to recursively scan  
-`-s scanlist.txt` -  (Optional) A text file containing a list of file extensions  
+`-s scanlist.txt` -  (Optional) A text file containing a list of file extensions to include in the scan
 `-d yes` - (Optional) Prompt to delete duplicate files  
 &nbsp;
 
